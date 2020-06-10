@@ -7,7 +7,7 @@ import App from './App';
 import {name as appName} from './app.json';
 import 'react-native-gesture-handler';
 import AppNavigator from './myapp/AppNavigator'
-import TabNavigator from './myapp/TabNavigator'
+import ProductsScreen from './myapp/screens/ProductsScreen'
 
 
 AppRegistry.registerComponent(appName, () => AppNavigator );

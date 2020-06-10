@@ -6,6 +6,7 @@ import NotificationScreen from './screens/NotificationScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
+import ProductsScreen from './screens/ProductsScreen'
 
 const Tab = createMaterialBottomTabNavigator ();
 
@@ -23,6 +24,9 @@ const TabNavigator = () => {
             <Tab.Screen
             name='ProfileScreen'
             component={ProfileScreen} />
+            <Tab.Screen
+            name='ProductsScreen'
+            component={ProductsScreen} />
         </Tab.Navigator>
         
     )
